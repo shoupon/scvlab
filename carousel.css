@@ -3,6 +3,9 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
+img {
+  max-width: 100%;
+}
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
@@ -46,6 +49,16 @@
 .carousel-inner > .item > img {
   margin:0 auto; 
   min-width: 100%;
+}
+
+/*-------------------------- CITATION --------------------------*/
+.citation{
+  display:block;
+  /*color:#082733;*/
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 60px;
+  text-indent: -20px
 }
 
 /* THEME SHOWCASE
