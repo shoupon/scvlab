@@ -92,8 +92,9 @@
         
         <div class="col-md-8">
           <img src="/images/architecture.png" class="left" />
-          <p>under constructions...</p>
-          
+          <p>We proposed a multiple stack architecture for intelligent vehicles.  Intelligent vehicles are similar to communication networks in the aspect that both systems interact with the physical world using rapidly evolving devices. However, intelligent vehicles are much more complicated since they interact with the physical world in several ways, and some of them are time-critical events. Our proposed architecture not only has layered feature as in communication architecture, but also adopts multiple stacks to solve this problem.</p>
+          <p>We organize different ways of interacting with the physical world into separate stacks, and within each stack there are several layers with well-defined interfaces. In each stack, modules in lower layers are closer to the physical world and provide services to the layer that resides one layer higher. Besides that, modules can also provide services to ones in other stacks.</p>
+          <p>By having well defined interfaces between the layers in the stacks we can change one particular layer without affecting the entire stack as in communication architecture. The layered architecture with services interfaces allows us to apply model checking and conformance testing to individual components. The interfaces between layers also eliminate physical constraints when generating testing sequence for each component. The test sequences can be injected into the components through the well-defined interface, and the outputs can be easily observed from the interface.</p>
           <h3> Publications </h3>
           <div style="clear: left; " class="csl-entry">
             <div style="float: left; padding-right: 0.5em;text-align: right; width: 2em;" class="csl-left-margin">[1]</div><div style="margin: 0 .4em 0 2.5em;" class="csl-right-inline">S. Lin and N. F. Maxemchuk, “An architecture for collaborative driving systems,” in <i>2012 20th IEEE International Conference on Network Protocols (ICNP)</i>, 2012, pp. 1–2. [<a href="http://safevehicle.ee.columbia.edu/docs/Lin2012.pdf">pdf</a>] </div>
