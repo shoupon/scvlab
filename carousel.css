@@ -34,7 +34,7 @@ img {
 -------------------------------------------------- */
 /* Carousel base class */
 .carousel {
-  max-height: 400px;
+  max-height: 500px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
